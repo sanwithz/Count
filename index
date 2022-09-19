@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanwithz | Count</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-grid">
+            <div class="content-facebook">
+                <i class="fa-brands fa-facebook"></i>
+                <div class="counter" data-target="1500">1500</div>
+                <h2>Facebook</h2>
+            </div>
+            <div class="content-youtube">
+                <i class="fa-brands fa-youtube"></i>
+                <div class="counter" data-target="1500">1500</div>
+                <h2>Youtube</h2>
+            </div>
+            <div class="content-line">
+                <i class="fa-brands fa-line"></i>
+                <div class="counter" data-target="1500">1500</div>
+                <h2>Line</h2>
+            </div>
+            <div class="content-github">
+                <i class="fa-brands fa-github"></i>
+                <div class="counter" data-target="1500">1500</div>
+                <h2>Github</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
